@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f7f5;
+    color: #24352d;
+}
+
+.navbar {
+    background: #142b24;
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.navbar h2 {
+    color: #65d6a0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #65d6a0;
+}
+
+.auth-container {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.auth-card {
+    background: white;
+    width: 100%;
+    max-width: 430px;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 5px 25px #00000015;
+}
+
+.auth-card h1 {
+    color: #1b4936;
+    margin-bottom: 10px;
+}
+
+.auth-card p {
+    margin: 12px 0;
+}
+
+.auth-card label {
+    display: block;
+    margin: 15px 0 7px;
+    font-weight: bold;
+}
+
+.auth-card input,
+.auth-card select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd8d0;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.auth-card button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 22px;
+    background: #218653;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-card button:hover {
+    background: #17673e;
+}
+
+#message {
+    overflow-wrap: anywhere;
+    color: #17673e;
+}
+
+.switch-link {
+    text-align: center;
+}
+
+.switch-link a {
+    color: #218653;
+    font-weight: bold;
+}
+
+footer {
+    background: #142b24;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h3 {
+    color: #65d6a0;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer a {
+    color: #65d6a0;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar ul {
+        justify-content: center;
+    }
+
+    .auth-card {
+        padding: 24px 18px;
+    }
+}
